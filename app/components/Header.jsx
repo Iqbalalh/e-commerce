@@ -12,10 +12,10 @@ export default function Header() {
                 <h1 className="font-extrabold text-2xl">Exclusive</h1>
                 <nav>
                     <ul className="lg:flex hidden gap-5 font-medium">
-                        <Link href=""><li className="hover:underline">Home</li></Link>
-                        <Link href=""><li className="hover:underline">Contact</li></Link>
-                        <Link href=""><li className="hover:underline">About</li></Link>
-                        <Link href=""><li className="hover:underline">Sign Up</li></Link>
+                        <Link href="/"><li className="hover:underline active-nav">Home</li></Link>
+                        <Link href="/contact"><li className="hover:underline">Contact</li></Link>
+                        <Link href="/about"><li className="hover:underline">About</li></Link>
+                        <Link href="/signup"><li className="hover:underline">Sign Up</li></Link>
                     </ul>
                 </nav>
                 <div className="lg:flex hidden items-center gap-3">

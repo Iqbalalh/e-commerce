@@ -11,3 +11,9 @@
 .invert-icon {
     filter: invert(1);
 }
+
+.active-nav {
+    border-bottom: 2px;
+    border-color: black;
+    border: 2px;
+}

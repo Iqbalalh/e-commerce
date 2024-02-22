@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 768px) {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.invert-icon {
+    filter: invert(1);
+}
